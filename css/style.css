@@ -58,6 +58,31 @@ body {
     color: #fff;
 }
 
+/* HOME */
+    /* CONTENT */
+
+    .space-menu-header,
+    .space-menu-price {
+        font-size: 2em;
+        color: #cb202d;
+    }
+
+    .space-menu-header {
+        text-shadow: 1px 2px 1px #444;
+    }
+
+    .space-menu-item {
+        font-size: 1.2em;
+        background-color: #cb202d;
+        color: #fff;
+        padding: .2em .4em;
+        text-shadow: 1px 1px 1px #444;
+    }
+
+    .space-menu-cont {
+        height: 20vh;
+    }
+
 /* MENU */
 .menu {
     padding: 0;
@@ -125,8 +150,31 @@ body {
     resize: none;
 }
 
+
 /* FOOTER */
+
+footer {
+    margin-top: 3em;
+    color: #000;
+}
+
 .contact-footer {
     position: fixed;
     bottom: 0;
 }
+    /* FOOTER - INFO */
+    .footer-info-header {
+        color: #000;
+    }
+
+    /* FOOTER - IFRAME*/
+    .footer-map-container {
+        /* border: 1px solid black; */
+    }
+
+    /* FOOTER - SOCIAL MEDIA */
+    footer .fa-brands {
+        font-size: 2em;
+        padding-top: .5em;
+        margin: .5em;
+    }

@@ -104,24 +104,163 @@
     </div>
 
     <!-- HOME -->
-    <h1>HOME</h1>
+    <!-- HOME - CAROUSEL -->
+    <div class="container home-container mb-5">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.goiko.com/wp-content/uploads/2022/08/TRUFAVORITA_1200x800_Carrusel_Web-desktop.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1554306297-0c86e837d24b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1136&q=80"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- HOME - CONTENT -->
+    <div class="container galaxy-typo">
+        <div class="row">
+            <div class="col-12 text-center">
+                <span class="space-menu-header">TASTE OUR NEW SPACE MENUS</span>
+            </div>
+        </div>
+        <div class="row text-center my-2">
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-12">
+                        <span class="space-menu-item">GALAXY BURGER</span>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-12">
+                        <div class="d-flex space-menu-cont justify-content-center">
+                            <img class="space-menu-img img-fluid"
+                                src="https://img.freepik.com/premium-photo/cheese-burger-with-onion-tomato-lettuce-bacon-white-background_499484-1161.jpg?w=2000"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-12">
+                        <span class="space-menu-item">GALAXY FRIES</span>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-12">
+                        <div class="d-flex space-menu-cont justify-content-center">
+                            <img class="space-menu-img img-fluid"
+                                src="https://images.unsplash.com/photo-1518013431117-eb1465fa5752?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-12">
+                        <span class="space-menu-item">GALAXY SODA</span>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-12">
+                        <div class="d-flex space-menu-cont justify-content-center">
+                            <img class="space-menu-img img-fluid"
+                                src="https://i.pinimg.com/736x/d0/00/1b/d0001bf1830d7bef38c152a400440dd1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <span class="space-menu-price">for only 9.9$</span>
+            </div>
+        </div>
+    </div>
 
     <!-- FOOTER -->
-    <footer class="container-fluid bg-black py-3">
+    <footer class="container-fluid">
         <div class="row">
-            <div class="col-3 bg-info">datos</div>
-            <div class="col-9 bg-warning">mapa</div>
+            <div class="col-6 p-2">
+                <div class="d-flex flex-column align-items-center text-center footer-info-container">
+                    <h3 class="footer-info-header">WHERE TO FIND US?</h3>
+                    <p>2150 Archibald, Ontario, CA, USA</p>
+                    <div class="d-flex flex-column align-items-start my-2">
+                        <h5 class="footer-info-hours"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z">
+                                </path>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"></path>
+                            </svg>
+                            OPENING HOURS
+                        </h5>
+                        <p><b>Tuesday-Thursday</b>: 12am to 12pm</p>
+                        <p><b>Friday-Sunday</b>: 12am to 2pm</p>
+                        <p>Monday: Closed</p>
+                        <h5>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                            </svg>
+                            +1 323 123-4256
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 p-2">
+                <div class="d-flex justify-content-center footer-map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d211790.2193681918!2d-117.96021077331218!3d33.96112847939595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c33527b486545b%3A0x2fc5e71be633d153!2sGalaxy%20Burgers!5e0!3m2!1ses-419!2ses!4v1664703211581!5m2!1ses-419!2ses"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
         </div>
-        <div class="row py-3">
-            <div class="col-12 text-center">RRSS</div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="d-flex justify-content-center footer-social-media">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
         </div>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous">
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     </script>
+    <!-- Fontawesome Icons -->
+    <script src="https://kit.fontawesome.com/11ed43a221.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
