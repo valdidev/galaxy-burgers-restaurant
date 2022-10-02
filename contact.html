@@ -19,8 +19,8 @@
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md navegation-bar container-fluid sticky-top py-2">
-        <div class="row align-items-center justify-content-center w-100">
+    <nav class="navbar navbar-expand-lg navegation-bar container-fluid sticky-top py-2">
+        <div class="row align-items-center w-100">
             <div class="col-2 logo-box">
                 <a class="navbar-brand" href="#">
                     <img class="galaxy-burger-logo" src="./imgs/logo-burger.png" alt="galaxy-burger-logo">
@@ -44,18 +44,31 @@
                         <a class="nav-link navbar-links nav-link-active" href="./contact.html">CONTACT</a>
                     </li>
                 </ul>
-                <div class="d-flex text-end justify-content-center">
+                <div class="d-flex text-end">
                     <a class="nav-link book-a-table" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
                         data-bs-whatever="@getbootstrap">BOOK A TABLE</a>
                 </div>
             </div>
-            <button class="navbar-toggler m-3 w-50" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <button class="navbar-toggler mx-3 w-50" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
 
     </nav>
+    
+    <!-- Spinner -->
+    <div id="spinner" class="spinner justify-content-center my-2">
+        <div class="spinner-grow mx-3" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow mx-3" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow mx-3" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
 
     <!-- MODAL BOOK A TABLE -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -149,8 +162,8 @@
 
     <!-- FOOTER -->
     <footer class="container-fluid">
-        <div class="row justify-content-evenly">
-            <div class="col-12 col-md-6 p-2">
+        <div class="row">
+            <div class="col-6 p-2">
                 <div class="d-flex flex-column align-items-center text-center footer-info-container">
                     <h3 class="footer-info-header">WHERE TO FIND US?</h3>
                     <p>2150 Archibald, Ontario, CA, USA</p>
@@ -178,7 +191,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 p-2">
+            <div class="col-6 p-2">
                 <div class="d-flex justify-content-center footer-map-container">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d211790.2193681918!2d-117.96021077331218!3d33.96112847939595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c33527b486545b%3A0x2fc5e71be633d153!2sGalaxy%20Burgers!5e0!3m2!1ses-419!2ses!4v1664703211581!5m2!1ses-419!2ses"
@@ -204,6 +217,8 @@
     </script>
     <!-- Fontawesome Icons -->
     <script src="https://kit.fontawesome.com/11ed43a221.js" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

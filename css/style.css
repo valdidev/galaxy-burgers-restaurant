@@ -78,6 +78,14 @@ body {
     color: white;
 }
 
+/* Spinner */
+.spinner {
+    display: flex;
+}
+.spinner-grow {
+    background-color: #cb202d;
+}
+
 /* HOME */
 
 .home-container {
