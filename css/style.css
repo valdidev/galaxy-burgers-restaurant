@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 body {
@@ -10,11 +11,22 @@ body {
 }
 
 /* GENERALS */
+
 .galaxy-typo {
     font-family: 'Oswald', sans-serif;
 }
 
+.galaxy-color {
+    color: #cb202d;
+}
+
+.form-control:focus {
+    border-color: #cb202d;
+    box-shadow: none;
+}
+
 /* NAVBAR */
+
 .navegation-bar {
     background: rgb(203, 32, 45);
     background: linear-gradient(180deg, rgba(203, 32, 45, 1) 42%, rgba(0, 0, 0, 1) 100%);
@@ -58,32 +70,44 @@ body {
     color: #fff;
 }
 
+.navbar-toggler:hover {
+    background-color: white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
 /* HOME */
-    /* CONTENT */
 
-    .space-menu-header,
-    .space-menu-price {
-        font-size: 2em;
-        color: #cb202d;
-    }
+.home-container {
+    width: 70%;
+}
 
-    .space-menu-header {
-        text-shadow: 1px 2px 1px #444;
-    }
+.space-menu-header,
+.space-menu-price {
+    font-size: 2em;
+    color: #cb202d;
+}
 
-    .space-menu-item {
-        font-size: 1.2em;
-        background-color: #cb202d;
-        color: #fff;
-        padding: .2em .4em;
-        text-shadow: 1px 1px 1px #444;
-    }
+.space-menu-header {
+    text-shadow: 1px 2px 1px #444;
+}
 
-    .space-menu-cont {
-        height: 20vh;
-    }
+.space-menu-item {
+    font-size: 1.2em;
+    background-color: #cb202d;
+    color: #fff;
+    padding: .2em .4em;
+    text-shadow: 1px 1px 1px #444;
+}
+
+.space-menu-cont {
+    height: 20vh;
+}
 
 /* MENU */
+
 .menu {
     padding: 0;
     display: grid;
@@ -145,11 +169,29 @@ body {
     width: 180px;
 }
 
+/* ABOUT US */
+
+.accordion-button:not(.collapsed) {
+    color: #cb202d;
+}
+.accordion-button:hover {
+    background-color: #cb202e72;
+}
+
 /* CONTACT */
+
+.contact-header {
+    text-decoration: underline;
+}
+
 .form-floating > textarea {
     resize: none;
 }
 
+.contact-button:hover {
+    background-color: #cb202d !important;
+    transition: background 400ms;
+}
 
 /* FOOTER */
 
@@ -162,19 +204,25 @@ footer {
     position: fixed;
     bottom: 0;
 }
-    /* FOOTER - INFO */
+    /* footer - info */
     .footer-info-header {
         color: #000;
     }
 
-    /* FOOTER - IFRAME*/
+    /* footer - iframe*/
     .footer-map-container {
         /* border: 1px solid black; */
     }
 
-    /* FOOTER - SOCIAL MEDIA */
+    /* footer - social media */
     footer .fa-brands {
         font-size: 2em;
         padding-top: .5em;
         margin: .5em;
+        color: #000;
+    }
+
+    footer .fa-brands:hover {
+        color: #cb202d;
+        transition: color 300ms;
     }

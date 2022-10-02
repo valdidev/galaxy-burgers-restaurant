@@ -19,8 +19,8 @@
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navegation-bar container-fluid sticky-top py-2">
-        <div class="row align-items-center w-100">
+    <nav class="navbar navbar-expand-md navegation-bar container-fluid sticky-top py-2">
+        <div class="row align-items-center justify-content-center w-100">
             <div class="col-2 logo-box">
                 <a class="navbar-brand" href="#">
                     <img class="galaxy-burger-logo" src="./imgs/logo-burger.png" alt="galaxy-burger-logo">
@@ -44,12 +44,12 @@
                         <a class="nav-link navbar-links nav-link-active" href="./contact.html">CONTACT</a>
                     </li>
                 </ul>
-                <div class="d-flex text-end">
+                <div class="d-flex text-end justify-content-center">
                     <a class="nav-link book-a-table" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
                         data-bs-whatever="@getbootstrap">BOOK A TABLE</a>
                 </div>
             </div>
-            <button class="navbar-toggler mx-3 w-50" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <button class="navbar-toggler m-3 w-50" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -62,7 +62,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title yaikuzza-color" id="exampleModalLabel">BOOK A TABLE</h5>
+                    <h5 class="modal-title  galaxy-typo space-menu-header" id="exampleModalLabel">BOOK A TABLE</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -97,7 +97,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Later</button>
-                    <button type="button" class="btn btn-success">BOOK NOW</button>
+                    <button type="button" class="btn btn-outline-success">BOOK NOW</button>
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <h1>CONTACT WITH US</h1>
+        <h1 class="galaxy-typo galaxy-color contact-header">CONTACT WITH US</h1>
         <p>Any questions, suggestions or problems will be answered</p>
       </div>
     </div>
@@ -140,7 +140,7 @@
               <label for="floatingTextarea2">Comments</label>
             </div>
             <div class="d-flex justify-content-center">
-              <button type="submit" class="menu-button btn btn-success px-3 py-2">Send</button>
+              <button type="submit" class="menu-button btn btn-outline-dark contact-button px-3 py-2">Send</button>
             </div>
         </form>
       </div>
@@ -149,8 +149,8 @@
 
     <!-- FOOTER -->
     <footer class="container-fluid">
-        <div class="row">
-            <div class="col-6 p-2">
+        <div class="row justify-content-evenly">
+            <div class="col-12 col-md-6 p-2">
                 <div class="d-flex flex-column align-items-center text-center footer-info-container">
                     <h3 class="footer-info-header">WHERE TO FIND US?</h3>
                     <p>2150 Archibald, Ontario, CA, USA</p>
@@ -178,7 +178,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 p-2">
+            <div class="col-12 col-md-6 p-2">
                 <div class="d-flex justify-content-center footer-map-container">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d211790.2193681918!2d-117.96021077331218!3d33.96112847939595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c33527b486545b%3A0x2fc5e71be633d153!2sGalaxy%20Burgers!5e0!3m2!1ses-419!2ses!4v1664703211581!5m2!1ses-419!2ses"
@@ -190,8 +190,8 @@
         <div class="row">
             <div class="col-12 text-center">
                 <div class="d-flex justify-content-center footer-social-media">
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
                 </div>
             </div>
         </div>
