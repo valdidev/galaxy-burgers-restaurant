@@ -4,7 +4,7 @@
 ### DESCRIPTION
  - Restaurant Website layout.
 ### TECHNOLOGIES
- - HTML, CSS, Bootstrap5 and JavaScript.
+ - HTML, CSS, Bootstrap5 and JavaScript
 ### LICENSE
  - Creative Commons v1.0 Universal
 ### AUTHOR
